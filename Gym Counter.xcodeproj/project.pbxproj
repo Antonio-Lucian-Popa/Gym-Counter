@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5513BD4E2ACC53860003ACA5 /* Gym Counter Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5513BD4D2ACC53860003ACA5 /* Gym Counter Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5513BD532ACC53860003ACA5 /* Gym_CounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BD522ACC53860003ACA5 /* Gym_CounterApp.swift */; };
+		5513BD552ACC53860003ACA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BD542ACC53860003ACA5 /* ContentView.swift */; };
+		5513BD572ACC53870003ACA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513BD562ACC53870003ACA5 /* Assets.xcassets */; };
+		5513BD5A2ACC53870003ACA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5513BD592ACC53870003ACA5 /* Preview Assets.xcassets */; };
+		5513BD642ACC53870003ACA5 /* Gym_Counter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BD632ACC53870003ACA5 /* Gym_Counter_Watch_AppTests.swift */; };
+		5513BD6E2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BD6D2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITests.swift */; };
+		5513BD702ACC53870003ACA5 /* Gym_Counter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513BD6F2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5513BD4F2ACC53860003ACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5513BD412ACC53860003ACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513BD4C2ACC53860003ACA5;
+			remoteInfo = "Gym Counter Watch App";
+		};
+		5513BD602ACC53870003ACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5513BD412ACC53860003ACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513BD4C2ACC53860003ACA5;
+			remoteInfo = "Gym Counter Watch App";
+		};
+		5513BD6A2ACC53870003ACA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5513BD412ACC53860003ACA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5513BD4C2ACC53860003ACA5;
+			remoteInfo = "Gym Counter Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5513BD762ACC53870003ACA5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5513BD4E2ACC53860003ACA5 /* Gym Counter Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5513BD472ACC53860003ACA5 /* Gym Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BD4D2ACC53860003ACA5 /* Gym Counter Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Counter Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BD522ACC53860003ACA5 /* Gym_CounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_CounterApp.swift; sourceTree = "<group>"; };
+		5513BD542ACC53860003ACA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5513BD562ACC53870003ACA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5513BD592ACC53870003ACA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5513BD5F2ACC53870003ACA5 /* Gym Counter Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym Counter Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BD632ACC53870003ACA5 /* Gym_Counter_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_Counter_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5513BD692ACC53870003ACA5 /* Gym Counter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym Counter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5513BD6D2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_Counter_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5513BD6F2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_Counter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5513BD4A2ACC53860003ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD5C2ACC53870003ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD662ACC53870003ACA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5513BD402ACC53860003ACA5 = {
+			isa = PBXGroup;
+			children = (
+				5513BD512ACC53860003ACA5 /* Gym Counter Watch App */,
+				5513BD622ACC53870003ACA5 /* Gym Counter Watch AppTests */,
+				5513BD6C2ACC53870003ACA5 /* Gym Counter Watch AppUITests */,
+				5513BD482ACC53860003ACA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5513BD482ACC53860003ACA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5513BD472ACC53860003ACA5 /* Gym Counter.app */,
+				5513BD4D2ACC53860003ACA5 /* Gym Counter Watch App.app */,
+				5513BD5F2ACC53870003ACA5 /* Gym Counter Watch AppTests.xctest */,
+				5513BD692ACC53870003ACA5 /* Gym Counter Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5513BD512ACC53860003ACA5 /* Gym Counter Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5513BD522ACC53860003ACA5 /* Gym_CounterApp.swift */,
+				5513BD542ACC53860003ACA5 /* ContentView.swift */,
+				5513BD562ACC53870003ACA5 /* Assets.xcassets */,
+				5513BD582ACC53870003ACA5 /* Preview Content */,
+			);
+			path = "Gym Counter Watch App";
+			sourceTree = "<group>";
+		};
+		5513BD582ACC53870003ACA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5513BD592ACC53870003ACA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5513BD622ACC53870003ACA5 /* Gym Counter Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5513BD632ACC53870003ACA5 /* Gym_Counter_Watch_AppTests.swift */,
+			);
+			path = "Gym Counter Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5513BD6C2ACC53870003ACA5 /* Gym Counter Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5513BD6D2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITests.swift */,
+				5513BD6F2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Gym Counter Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5513BD462ACC53860003ACA5 /* Gym Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BD772ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter" */;
+			buildPhases = (
+				5513BD452ACC53860003ACA5 /* Resources */,
+				5513BD762ACC53870003ACA5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513BD502ACC53860003ACA5 /* PBXTargetDependency */,
+			);
+			name = "Gym Counter";
+			productName = "Gym Counter";
+			productReference = 5513BD472ACC53860003ACA5 /* Gym Counter.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		5513BD4C2ACC53860003ACA5 /* Gym Counter Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BD732ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch App" */;
+			buildPhases = (
+				5513BD492ACC53860003ACA5 /* Sources */,
+				5513BD4A2ACC53860003ACA5 /* Frameworks */,
+				5513BD4B2ACC53860003ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gym Counter Watch App";
+			productName = "Gym Counter Watch App";
+			productReference = 5513BD4D2ACC53860003ACA5 /* Gym Counter Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5513BD5E2ACC53870003ACA5 /* Gym Counter Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BD7A2ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch AppTests" */;
+			buildPhases = (
+				5513BD5B2ACC53870003ACA5 /* Sources */,
+				5513BD5C2ACC53870003ACA5 /* Frameworks */,
+				5513BD5D2ACC53870003ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513BD612ACC53870003ACA5 /* PBXTargetDependency */,
+			);
+			name = "Gym Counter Watch AppTests";
+			productName = "Gym Counter Watch AppTests";
+			productReference = 5513BD5F2ACC53870003ACA5 /* Gym Counter Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5513BD682ACC53870003ACA5 /* Gym Counter Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5513BD7D2ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch AppUITests" */;
+			buildPhases = (
+				5513BD652ACC53870003ACA5 /* Sources */,
+				5513BD662ACC53870003ACA5 /* Frameworks */,
+				5513BD672ACC53870003ACA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5513BD6B2ACC53870003ACA5 /* PBXTargetDependency */,
+			);
+			name = "Gym Counter Watch AppUITests";
+			productName = "Gym Counter Watch AppUITests";
+			productReference = 5513BD692ACC53870003ACA5 /* Gym Counter Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5513BD412ACC53860003ACA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5513BD462ACC53860003ACA5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5513BD4C2ACC53860003ACA5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5513BD5E2ACC53870003ACA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5513BD4C2ACC53860003ACA5;
+					};
+					5513BD682ACC53870003ACA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5513BD4C2ACC53860003ACA5;
+					};
+				};
+			};
+			buildConfigurationList = 5513BD442ACC53860003ACA5 /* Build configuration list for PBXProject "Gym Counter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5513BD402ACC53860003ACA5;
+			productRefGroup = 5513BD482ACC53860003ACA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5513BD462ACC53860003ACA5 /* Gym Counter */,
+				5513BD4C2ACC53860003ACA5 /* Gym Counter Watch App */,
+				5513BD5E2ACC53870003ACA5 /* Gym Counter Watch AppTests */,
+				5513BD682ACC53870003ACA5 /* Gym Counter Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5513BD452ACC53860003ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD4B2ACC53860003ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BD5A2ACC53870003ACA5 /* Preview Assets.xcassets in Resources */,
+				5513BD572ACC53870003ACA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD5D2ACC53870003ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD672ACC53870003ACA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5513BD492ACC53860003ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BD552ACC53860003ACA5 /* ContentView.swift in Sources */,
+				5513BD532ACC53860003ACA5 /* Gym_CounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD5B2ACC53870003ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BD642ACC53870003ACA5 /* Gym_Counter_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5513BD652ACC53870003ACA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5513BD6E2ACC53870003ACA5 /* Gym_Counter_Watch_AppUITests.swift in Sources */,
+				5513BD702ACC53870003ACA5 /* Gym_Counter_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5513BD502ACC53860003ACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513BD4C2ACC53860003ACA5 /* Gym Counter Watch App */;
+			targetProxy = 5513BD4F2ACC53860003ACA5 /* PBXContainerItemProxy */;
+		};
+		5513BD612ACC53870003ACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513BD4C2ACC53860003ACA5 /* Gym Counter Watch App */;
+			targetProxy = 5513BD602ACC53870003ACA5 /* PBXContainerItemProxy */;
+		};
+		5513BD6B2ACC53870003ACA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5513BD4C2ACC53860003ACA5 /* Gym Counter Watch App */;
+			targetProxy = 5513BD6A2ACC53870003ACA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5513BD712ACC53870003ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5513BD722ACC53870003ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5513BD742ACC53870003ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gym Counter Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gym Counter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5513BD752ACC53870003ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Gym Counter Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gym Counter";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		5513BD782ACC53870003ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gym Counter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5513BD792ACC53870003ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "Gym Counter";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5513BD7B2ACC53870003ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Counter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gym Counter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5513BD7C2ACC53870003ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Counter Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gym Counter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		5513BD7E2ACC53870003ACA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Gym Counter Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		5513BD7F2ACC53870003ACA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asusoftware.Gym-Counter-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Gym Counter Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5513BD442ACC53860003ACA5 /* Build configuration list for PBXProject "Gym Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BD712ACC53870003ACA5 /* Debug */,
+				5513BD722ACC53870003ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BD732ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BD742ACC53870003ACA5 /* Debug */,
+				5513BD752ACC53870003ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BD772ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BD782ACC53870003ACA5 /* Debug */,
+				5513BD792ACC53870003ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BD7A2ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BD7B2ACC53870003ACA5 /* Debug */,
+				5513BD7C2ACC53870003ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5513BD7D2ACC53870003ACA5 /* Build configuration list for PBXNativeTarget "Gym Counter Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5513BD7E2ACC53870003ACA5 /* Debug */,
+				5513BD7F2ACC53870003ACA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5513BD412ACC53860003ACA5 /* Project object */;
+}
