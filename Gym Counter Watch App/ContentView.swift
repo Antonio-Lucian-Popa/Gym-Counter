@@ -157,14 +157,19 @@ struct ContentView: View {
 
 import SwiftUI
 import Combine
+import WatchKit
 
 class TimerManager: ObservableObject {
-    @Published var remainingTime: Int = 20
-    @Published var remainingPause: Int = 1 * 60
+    @Published var remainingTime: Int = 1800
+    @Published var remainingPause: Int = 5 * 60
     @Published var numberOfRounds: Int = 1
     @Published var isStarted: Bool = false
 
     var timer: Timer?
+    
+    func playHapticFeedback() {
+            WKInterfaceDevice.current().play(.notification) // Play haptic feedback
+        }
 
     func startTimerForWorkout() {
         stopTimer()
@@ -172,6 +177,7 @@ class TimerManager: ObservableObject {
             guard let self = self else { return }
             self.remainingTime -= 1
             if self.remainingTime <= 0 {
+                self.playHapticFeedback()
                 self.numberOfRounds -= 1
                 self.remainingPause = 1 * 60
                 if self.numberOfRounds > 0 {
@@ -265,6 +271,9 @@ struct ContentView: View {
                     Button(action: {
                         if timerManager.numberOfRounds > 1 {
                             timerManager.numberOfRounds -= 1
+                        } else {
+                            timerManager.stopTimer()
+                            timerManager.isStarted = false
                         }
                     }) {
                         Image(systemName: "minus.circle.fill")
@@ -277,7 +286,7 @@ struct ContentView: View {
                     timerManager.isStarted = true
                     timerManager.numberOfRounds = 1
                     timerManager.remainingPause = 0
-                    timerManager.remainingTime = 1 * 60
+                    timerManager.remainingTime = 1800
                     timerManager.startTimerForWorkout()
                 }
             }
